@@ -1,6 +1,7 @@
 window.addEventListener('DOMContentLoaded', () => {
-    // Выбираем все элементы с контентом табов
-    const tabContent = document.querySelectorAll('.info-tabcontent');
+
+    const tabContent = document.querySelectorAll('.info-tabcontent'),
+          tabTitle = document.querySelectorAll('.info-header-tab');  
 
     function hideInfo() {
         for (let i = 0; i < tabContent.length; i++) {
